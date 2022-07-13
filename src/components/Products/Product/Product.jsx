@@ -6,12 +6,12 @@ import {
   CardActions,
   Typography,
   IconButton,
-} from "material-ui/core";
+} from "@material-ui/core";
 import { AddShoppingCart } from "@material-ui/icons";
 import useStyles from "./styles";
 
 const Product = ({ product }) => {
-    const classes = useStyles();
+  const classes = useStyles();
   return (
     <Card className={classes.root}>
       <CardMedia className={classes.media} image="" title={product.name} />
